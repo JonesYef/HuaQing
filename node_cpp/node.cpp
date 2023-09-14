@@ -1,0 +1,47 @@
+#include <cstdlib>
+#include <ctime>
+#include <iostream>
+#include <random>
+#include "node.hpp"
+
+template <class  T>
+List_Node<T>::List_Node(int n)
+{   
+    head=new Node<T>;
+    Node<T> *p =head;
+    srand(time(0));
+    for(int i=0;i<n;i++)
+    {
+        Node<T> *node=new Node<T>;
+        node->data=(T)(rand()%100+1);
+        p->next=node;
+        p=node;
+    }
+    std::cout<<"init is done\n";
+}
+
+template <class  T>
+List_Node<T>::~List_Node()
+{
+    Node<T> * p=head->next;
+    Node<T>*q;
+    while(p){
+        q=p;
+        p=p->next;
+        delete q;
+    }
+    std::cout<<"delet done\n";
+}
+
+template <class  T>
+void List_Node<T>::Display(){
+    Node<T> * p=head->next;
+    while(p)
+    {
+        std::cout<<p->data<<"->";
+        p=p->next;
+    }
+    std::cout<<"nullptr\n";
+
+}
+
