@@ -9,11 +9,12 @@ List_Node<T>::List_Node(int n)
 {   
     head=new Node<T>;
     Node<T> *p =head;
-    srand(time(0));
+    std::default_random_engine e(time(0));
+    std::uniform_int_distribution<T>u(0,200);
     for(int i=0;i<n;i++)
     {
         Node<T> *node=new Node<T>;
-        node->data=(T)(rand()%100+1);
+        node->data=u(e);
         p->next=node;
         p=node;
     }

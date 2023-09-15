@@ -7,8 +7,6 @@
 
 
 
-
-
 void InitListDouble(struct ListDouble ** list,int n){
     struct ListDouble * node=(struct ListDouble *)malloc(sizeof(struct ListDouble));
     node->prev=(*list);
@@ -47,6 +45,7 @@ void InsertListdouble(struct ListDouble * head,int position,Elemtype e){
     assert(position>0);
     unsigned int n=1;
     struct ListDouble * node=(struct ListDouble *)malloc(sizeof(struct ListDouble ));
+    assert(node!=NULL);
     node->data=e;
     struct ListDouble * p=head;
     while(p->next->next && n<position){

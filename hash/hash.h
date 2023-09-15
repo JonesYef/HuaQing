@@ -25,4 +25,6 @@ void InsertHash(struct HashTable * h,int key);
 
 Statue SearchElem(struct HashTable h,int key,int *addr);
 
+
+
 #endif
