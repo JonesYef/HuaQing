@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/allen/mycode/build",
+  "command": "/usr/bin/g++      -g -Wall -o CMakeFiles/allen.dir/src/main.cpp.o -c /home/allen/mycode/node_cpp/src/main.cpp",
+  "file": "/home/allen/mycode/node_cpp/src/main.cpp"
+},
+{
+  "directory": "/home/allen/mycode/build",
+  "command": "/usr/bin/g++      -g -Wall -o CMakeFiles/allen.dir/src/node.cpp.o -c /home/allen/mycode/node_cpp/src/node.cpp",
+  "file": "/home/allen/mycode/node_cpp/src/node.cpp"
+}
+]

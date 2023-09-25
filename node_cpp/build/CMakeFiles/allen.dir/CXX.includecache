@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/allen/mycode/node_cpp/src/main.cpp
+iostream
+-
+node.cpp
+/home/allen/mycode/node_cpp/src/node.cpp
+
+/home/allen/mycode/node_cpp/src/node.cpp
+cstdlib
+-
+ctime
+-
+iostream
+-
+random
+-
+node.hpp
+/home/allen/mycode/node_cpp/src/node.hpp
+
+/home/allen/mycode/node_cpp/src/node.hpp
+

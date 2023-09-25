@@ -1,0 +1,59 @@
+The system is: Linux - sh: 0: getcwd() failed: No such file or directory
+5.4.0-152-generic - sh: 0: getcwd() failed: No such file or directory
+x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/allen/mycode/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c10a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c10a.dir/build.make CMakeFiles/cmTC_7c10a.dir/build
+make[1]: Entering directory '/home/allen/mycode/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c10a.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_7c10a.dir/testCCompiler.c.o   -c /home/allen/mycode/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_7c10a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c10a.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_7c10a.dir/testCCompiler.c.o  -o cmTC_7c10a 
+make[1]: Leaving directory '/home/allen/mycode/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/allen/mycode/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2fc16/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2fc16.dir/build.make CMakeFiles/cmTC_2fc16.dir/build
+make[1]: Entering directory '/home/allen/mycode/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2fc16.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTC_2fc16.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_2fc16
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fc16.dir/link.txt --verbose=1
+/usr/bin/gcc      CMakeFiles/cmTC_2fc16.dir/CMakeCCompilerABI.c.o  -o cmTC_2fc16 
+make[1]: Leaving directory '/home/allen/mycode/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/allen/mycode/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b8d92/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b8d92.dir/build.make CMakeFiles/cmTC_b8d92.dir/build
+make[1]: Entering directory '/home/allen/mycode/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b8d92.dir/testCXXCompiler.cxx.o
+/usr/bin/g++     -o CMakeFiles/cmTC_b8d92.dir/testCXXCompiler.cxx.o -c /home/allen/mycode/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_b8d92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8d92.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_b8d92.dir/testCXXCompiler.cxx.o  -o cmTC_b8d92 
+make[1]: Leaving directory '/home/allen/mycode/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/allen/mycode/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4bad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4bad.dir/build.make CMakeFiles/cmTC_e4bad.dir/build
+make[1]: Entering directory '/home/allen/mycode/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4bad.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/g++     -o CMakeFiles/cmTC_e4bad.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_e4bad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4bad.dir/link.txt --verbose=1
+/usr/bin/g++       CMakeFiles/cmTC_e4bad.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_e4bad 
+make[1]: Leaving directory '/home/allen/mycode/build/CMakeFiles/CMakeTmp'
+
+

@@ -1,0 +1,3 @@
+/home/allen/mycode/node_cpp/build/CMakeFiles/rebuild_cache.dir
+/home/allen/mycode/node_cpp/build/CMakeFiles/allen.dir
+/home/allen/mycode/node_cpp/build/CMakeFiles/edit_cache.dir
