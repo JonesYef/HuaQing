@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/allen.dir/src/main.cpp.o CMakeFiles/allen.dir/src/node.cpp.o  -o allen 
