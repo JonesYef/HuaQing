@@ -1,3 +1,0 @@
-/home/allen/mycode/build/CMakeFiles/rebuild_cache.dir
-/home/allen/mycode/build/CMakeFiles/allen.dir
-/home/allen/mycode/build/CMakeFiles/edit_cache.dir
